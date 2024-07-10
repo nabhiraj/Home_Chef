@@ -12,14 +12,14 @@ The main project requires a directory (you can name it anything) containing a se
 
 Additionally, define the following environment variables:
 
-    PATH_TO_REDIRECT_HTML: Path to the HTML file inside the GitHub repo for the GitHub Pages.
-    PATH_TO_HTML_PROJECT: Path to the internal GitHub repo for the GitHub Pages.
-    PATH_TO_CONFIG: Path to the config file named _config.yml, located directly inside PATH_TO_HTML_PROJECT.
-    TARGET_BRANCH: The branch to use for the GitHub Pages.
+PATH_TO_REDIRECT_HTML: Path to the HTML file inside the GitHub repo for the GitHub Pages.
+PATH_TO_HTML_PROJECT: Path to the internal GitHub repo for the GitHub Pages.
+PATH_TO_CONFIG: Path to the config file named _config.yml, located directly inside PATH_TO_HTML_PROJECT.
+TARGET_BRANCH: The branch to use for the GitHub Pages.
 
 Example:
 
-plaintext
+
 
     PATH_TO_REDIRECT_HTML = './linkDirs/wolf_links/index.html'
     PATH_TO_CONFIG = './linkDirs/wolf_links/_config.yml'
